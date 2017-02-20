@@ -19,7 +19,9 @@ module RubyHeapGraph
   private
 
   def user_confirm?
-    puts "This will import the heap into a Neo4j database. If Neo4j is not installed, it will be automatically installed. WARNING: The database at #{NEO4J_DB_PATH} will be replaced with the latest heap dump. Proceed? (y/n)>"
+    puts "This will import the heap into a Neo4j database. If Neo4j is not installed, it will be automatically installed.\n\
+WARNING: The database at #{NEO4J_DB_PATH} will be replaced with the latest heap dump.\n\
+Proceed? (y/n)>"
     gets.strip.casecmp('y').zero?
   end
 
