@@ -15,7 +15,7 @@ Useful for investigating memory leaks, it allows one to:
     gem 'ruby_heap_graph', git: 'git@github.com:joshuafleck/ruby_heap_graph.git'
     ```
 
-1. Trigger the graph to be built in your application
+1. Trigger the graph to be built in your application. You will be presented with a prompt you must accept before the export will proceed. *Note: The initial installation of Neo4j may fail the first time with a `Directory not empty` error - re-run the build to get around this.*
 
     ```ruby
     RubyHeapGraph.build
