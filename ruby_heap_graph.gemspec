@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Joshua Fleck']
   s.email       = 'joshuafleck@gmail.com'
   s.files       = ['lib/ruby_heap_graph.rb']
-  s.homepage    = 'http://rubygems.org/gems/ruby_heap_graph'
+  s.homepage    = 'https://github.com/joshuafleck/ruby_heap_graphh'
   s.license     = 'MIT'
   s.add_dependency 'neo4j', '~> 8.0'
 end
